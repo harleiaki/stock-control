@@ -4,9 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardHomeComponent } from './page/dashboard-home/dashboard-home.component';
 
 @NgModule({
-  declarations: [
-    DashboardHomeComponent
-  ],
+  declarations: [DashboardHomeComponent],
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
 })
 export class DashboardModule {}
